@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74D02D31529F8A800420AE4 /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D02D11529F8A800420AE4 /* ServerViewController.m */; };
+		F74D02D7152A022600420AE4 /* ServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D02D6152A022600420AE4 /* ServerConnection.m */; };
+		F7C567D3152F81E500145E46 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C567D2152F81E500145E46 /* ProgressViewController.m */; };
+		F7F098C11529CD5E002FE98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F098C01529CD5E002FE98E /* UIKit.framework */; };
+		F7F098C31529CD5E002FE98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F098C21529CD5E002FE98E /* Foundation.framework */; };
+		F7F098C51529CD5E002FE98E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F098C41529CD5E002FE98E /* CoreGraphics.framework */; };
+		F7F098CB1529CD5E002FE98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F098C91529CD5E002FE98E /* InfoPlist.strings */; };
+		F7F098CD1529CD5E002FE98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F098CC1529CD5E002FE98E /* main.m */; };
+		F7F098D11529CD5E002FE98E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F098D01529CD5E002FE98E /* AppDelegate.m */; };
+		F7F098D41529CD5E002FE98E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F098D21529CD5E002FE98E /* MainStoryboard_iPhone.storyboard */; };
+		F7F098D71529CD5E002FE98E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F098D51529CD5E002FE98E /* MainStoryboard_iPad.storyboard */; };
+		F7F098DA1529CD5E002FE98E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F098D91529CD5E002FE98E /* MasterViewController.m */; };
+		F7F098DD1529CD5E002FE98E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F098DC1529CD5E002FE98E /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F74D02D01529F8A800420AE4 /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		F74D02D11529F8A800420AE4 /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		F74D02D5152A022600420AE4 /* ServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConnection.h; sourceTree = "<group>"; };
+		F74D02D6152A022600420AE4 /* ServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerConnection.m; sourceTree = "<group>"; };
+		F7C567D1152F81E500145E46 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		F7C567D2152F81E500145E46 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		F7F098BC1529CD5E002FE98E /* RevitServerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevitServerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F098C01529CD5E002FE98E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7F098C21529CD5E002FE98E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7F098C41529CD5E002FE98E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7F098C81529CD5E002FE98E /* RevitServerClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RevitServerClient-Info.plist"; sourceTree = "<group>"; };
+		F7F098CA1529CD5E002FE98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7F098CC1529CD5E002FE98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F098CE1529CD5E002FE98E /* RevitServerClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevitServerClient-Prefix.pch"; sourceTree = "<group>"; };
+		F7F098CF1529CD5E002FE98E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7F098D01529CD5E002FE98E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7F098D31529CD5E002FE98E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F7F098D61529CD5E002FE98E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F7F098D81529CD5E002FE98E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F7F098D91529CD5E002FE98E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F7F098DB1529CD5E002FE98E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F7F098DC1529CD5E002FE98E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F098B91529CD5E002FE98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F098C11529CD5E002FE98E /* UIKit.framework in Frameworks */,
+				F7F098C31529CD5E002FE98E /* Foundation.framework in Frameworks */,
+				F7F098C51529CD5E002FE98E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F098B11529CD5E002FE98E = {
+			isa = PBXGroup;
+			children = (
+				F7F098C61529CD5E002FE98E /* RevitServerClient */,
+				F7F098BF1529CD5E002FE98E /* Frameworks */,
+				F7F098BD1529CD5E002FE98E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F098BD1529CD5E002FE98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F098BC1529CD5E002FE98E /* RevitServerClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F098BF1529CD5E002FE98E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F098C01529CD5E002FE98E /* UIKit.framework */,
+				F7F098C21529CD5E002FE98E /* Foundation.framework */,
+				F7F098C41529CD5E002FE98E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F098C61529CD5E002FE98E /* RevitServerClient */ = {
+			isa = PBXGroup;
+			children = (
+				F7C567D1152F81E500145E46 /* ProgressViewController.h */,
+				F7C567D2152F81E500145E46 /* ProgressViewController.m */,
+				F7F098CF1529CD5E002FE98E /* AppDelegate.h */,
+				F7F098D01529CD5E002FE98E /* AppDelegate.m */,
+				F7F098D21529CD5E002FE98E /* MainStoryboard_iPhone.storyboard */,
+				F7F098D51529CD5E002FE98E /* MainStoryboard_iPad.storyboard */,
+				F74D02D01529F8A800420AE4 /* ServerViewController.h */,
+				F74D02D11529F8A800420AE4 /* ServerViewController.m */,
+				F7F098D81529CD5E002FE98E /* MasterViewController.h */,
+				F7F098D91529CD5E002FE98E /* MasterViewController.m */,
+				F7F098DB1529CD5E002FE98E /* DetailViewController.h */,
+				F7F098DC1529CD5E002FE98E /* DetailViewController.m */,
+				F74D02D5152A022600420AE4 /* ServerConnection.h */,
+				F74D02D6152A022600420AE4 /* ServerConnection.m */,
+				F7F098C71529CD5E002FE98E /* Supporting Files */,
+			);
+			path = RevitServerClient;
+			sourceTree = "<group>";
+		};
+		F7F098C71529CD5E002FE98E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F098C81529CD5E002FE98E /* RevitServerClient-Info.plist */,
+				F7F098C91529CD5E002FE98E /* InfoPlist.strings */,
+				F7F098CC1529CD5E002FE98E /* main.m */,
+				F7F098CE1529CD5E002FE98E /* RevitServerClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F098BB1529CD5E002FE98E /* RevitServerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F098E01529CD5E002FE98E /* Build configuration list for PBXNativeTarget "RevitServerClient" */;
+			buildPhases = (
+				F7F098B81529CD5E002FE98E /* Sources */,
+				F7F098B91529CD5E002FE98E /* Frameworks */,
+				F7F098BA1529CD5E002FE98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevitServerClient;
+			productName = RevitServerClient;
+			productReference = F7F098BC1529CD5E002FE98E /* RevitServerClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F098B31529CD5E002FE98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Autodek;
+			};
+			buildConfigurationList = F7F098B61529CD5E002FE98E /* Build configuration list for PBXProject "RevitServerClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7F098B11529CD5E002FE98E;
+			productRefGroup = F7F098BD1529CD5E002FE98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F098BB1529CD5E002FE98E /* RevitServerClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F098BA1529CD5E002FE98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F098CB1529CD5E002FE98E /* InfoPlist.strings in Resources */,
+				F7F098D41529CD5E002FE98E /* MainStoryboard_iPhone.storyboard in Resources */,
+				F7F098D71529CD5E002FE98E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F098B81529CD5E002FE98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F098CD1529CD5E002FE98E /* main.m in Sources */,
+				F7F098D11529CD5E002FE98E /* AppDelegate.m in Sources */,
+				F7F098DA1529CD5E002FE98E /* MasterViewController.m in Sources */,
+				F7F098DD1529CD5E002FE98E /* DetailViewController.m in Sources */,
+				F74D02D31529F8A800420AE4 /* ServerViewController.m in Sources */,
+				F74D02D7152A022600420AE4 /* ServerConnection.m in Sources */,
+				F7C567D3152F81E500145E46 /* ProgressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7F098C91529CD5E002FE98E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F098CA1529CD5E002FE98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7F098D21529CD5E002FE98E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F098D31529CD5E002FE98E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F7F098D51529CD5E002FE98E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F098D61529CD5E002FE98E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F098DE1529CD5E002FE98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F7F098DF1529CD5E002FE98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7F098E11529CD5E002FE98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevitServerClient/RevitServerClient-Prefix.pch";
+				INFOPLIST_FILE = "RevitServerClient/RevitServerClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7F098E21529CD5E002FE98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevitServerClient/RevitServerClient-Prefix.pch";
+				INFOPLIST_FILE = "RevitServerClient/RevitServerClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F098B61529CD5E002FE98E /* Build configuration list for PBXProject "RevitServerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F098DE1529CD5E002FE98E /* Debug */,
+				F7F098DF1529CD5E002FE98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F098E01529CD5E002FE98E /* Build configuration list for PBXNativeTarget "RevitServerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F098E11529CD5E002FE98E /* Debug */,
+				F7F098E21529CD5E002FE98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F098B31529CD5E002FE98E /* Project object */;
+}
